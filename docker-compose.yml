@@ -29,8 +29,11 @@ services:
   db:
     # This image exposes the standard MySQL port (3306)
     image: mysql:5.7
+    volumes:
+       - /var/lib/mysql/data
     environment:
       MYSQL_ROOT_PASSWORD: 'root'
+      
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
