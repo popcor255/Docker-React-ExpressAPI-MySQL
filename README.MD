@@ -13,3 +13,5 @@ $ docker-compose up
 ````
 
 And that`s all, in the docker-compose.yml file its possible to change the enabled ports, database password, dev/production envoroments and other simple configs, change it as you need.
+
+*Edited to support volumes for front and back end
